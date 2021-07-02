@@ -1,0 +1,54 @@
+	body {
+		background: deepskyblue;
+		margin: 0;
+	}
+
+	.areap { 
+		width:50%;
+		background-color: lightskyblue; 
+		margin: 0 auto;
+		border: 10px solid teal;
+	}
+
+ p { font-size: 20px; text-align: center }
+
+ strong {
+ 	color: darkgreen;
+ }
+
+ h1 {
+ 	background: teal;
+ 	border: 10px solid teal;
+ }
+a {
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+	background-color: teal;
+	color: white;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 20px 0;
+}
+a:hover {
+	text-decoration: underline;
+}
+img {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+}
+.caixa {
+	width: 95%;
+	margin: 0 auto;
+}
+.espacamento {
+	width: 95%;
+	margin: 0 auto;
+}
+@media screen and (max-width: 900px) {
+	.areap {
+		width: auto;
+	}
+}
